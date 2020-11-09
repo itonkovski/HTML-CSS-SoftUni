@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: lightgrey;
+}
+
+header,
+main,
+aside,
+footer {
+    border-radius: 1px;
+    background: white;
+    box-shadow: 0 0 5px 0 ;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 auto;
+}
+
+h1,
+h2 {
+    font-size: 10px;
+}
+
+div {
+    display: flex;
+}
+
+main {
+    flex: 1 1 60em;
+}
+
+aside {
+    flex: 1 1 30em;
+}

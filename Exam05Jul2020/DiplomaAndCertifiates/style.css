@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+main {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    margin: 45px;
+    
+}
+
+.dots-image-info {
+    align-self: flex-end;
+}
+
+.dots-image-article {
+    align-self: baseline;
+}
+
+body {
+    background-color: rgb(36, 94, 137);
+}
+
+.main-information {
+    color: white;
+    margin: 20px;
+}
+
+.main-information h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-information p {
+    font-family: 'Lato', sans-serif;
+}
+
+.main-information-faded {
+    font-weight: lighter;
+    color: rgb(108, 146, 175);
+}
+
+.article-section {
+    display: flex;
+}
+
+.article-section-diploma {
+    margin-left: 20px;
+}

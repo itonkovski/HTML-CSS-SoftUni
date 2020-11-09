@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    font-style: 'Montserrat';
+}
+
+.div-img {
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav-ul-list {
+    list-style: none;
+    margin: 0 auto;
+    margin-right: 10px;
+    
+}
+
+.nav-ul-list-a {
+    text-decoration: none;
+    color: rgb(85, 75, 115);
+}
+
+.nav-button {
+    height: 30px;
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(155, 93, 198);
+    color: white;
+    font-size: 10px;
+}
+
+.sertificates-and-diplomas {
+    display: flex;
+}
+
+.sertificates-and-diplomas--wrapper{
+    display: block;
+    margin: 0 auto;
+    margin-left: 42px;
+    margin-right: 70px;
+}
+
+.sertificates-and-diplomas--header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 30px;
+    color: #54546D;
+    text-decoration: none solid rgb(84, 84, 109);
+}
+
+.sertificates-and-diplomas--wrapper p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none solid rgb(86, 86, 86);
+    color: #565656;
+}
+
+.sertificates-award-wrapper{
+    display: inline-block;
+    background: #54546D;
+    position: absolute;
+    top: 70px;
+    right: -26px;
+}
+
+.sertificates-award-wrapper img {
+    display: block;
+    position: relative;
+    max-width: 150px;
+    height: 221px;
+}
+
+.paragraph-two {
+    font-size: 12px;
+    line-height: 15px;
+    font-style: italic;
+}
+

@@ -1,0 +1,35 @@
+@media only screen and (max-width : 884px) {
+    main {
+        display: block;
+    };
+
+    footer {
+        display: block;
+        text-align: start;
+    }
+
+    .newsletter-box {
+        margin: 0 auto !important;
+    }
+
+    .newsletter-boxes {
+        display: block;
+        margin-top: 20px;
+    }
+    .newsletter-box-content {
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+
+    .newsletter-bottom-content {
+        text-align: start;
+    }
+
+    .newsletter-bottom {
+        display: flex;
+    }
+
+    .bottom-logo {
+        width: 15%;
+    }
+}

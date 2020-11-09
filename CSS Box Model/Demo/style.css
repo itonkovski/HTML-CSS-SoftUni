@@ -1,0 +1,20 @@
+div, span {
+    width: 200px;
+    background-color: navajowhite;
+    border-style: groove;
+}
+
+
+
+ul {
+    background-color: navajowhite;
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}

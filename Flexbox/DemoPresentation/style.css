@@ -1,0 +1,31 @@
+.parent {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+div {
+    min-height: 50px;
+    min-width: 70px;
+    background: lightskyblue;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.child-one {
+    background: lightgreen;
+}
+
+.child-two {
+    background: lightskyblue;
+}
+
+.child-three {
+    background: red;
+}
+
+.child-four {
+    background: yellow;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gelasio', serif;
+}
+
+li {
+    list-style-type: none;
+}
+/** Header styling **/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 227, 222);
+    color: rgb(85, 73, 56);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.login-button-search {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    margin: 15px;
+}
+
+.navigation li {
+    margin:0 20px;
+}
+
+.login-button-search li {
+    margin: 20px;
+}
+
+.main-button {
+    background-color: rgb(85, 73, 56);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.login-button-search li i {
+    color: black;
+}
+
+/** Main Styling**/
+
+.main-and-footer {
+    background-image: url(./Media/background.jpg);
+}
+
+.main-section-craving {
+    background-image: url('./Media/craving.jpg');
+    height: 500px;
+}
+
+.main-section-craving-search {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.main-section-craving-search h1 {
+    font-size: 3em;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.main-section-craving-search p {
+    background-color: rgba(230, 227, 222, 0.699);
+    padding: 7px;
+}
+.main-section-craving-search p input {
+    border: none;
+    background-color: transparent;
+}
+
+.main-section-craving-search p i {
+    color: rgb(136, 124, 122);
+    margin-left: 5px;
+}
+
+.main-section-party {
+    width: 70%;
+    display: flex;
+    background-color: rgb(230, 227, 222);
+    margin: 50px auto;
+}
+
+.main-section-party-image {
+    width: 500px;
+    height: auto;
+}
+
+.main-section-party-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-section-party-info {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.main-section-party-info h1 {
+    font-size: 28px;
+}
+
+.recipes-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.main-section-tutorial {
+    width: 70%;
+    display: flex;
+    background-color: rgb(230, 227, 222);
+    margin: 50px auto;
+}
+
+.main-section-tutorial-image {
+    width: 550px;
+    height: auto;
+}
+
+.main-section-tutorial-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-section-tutorial-info {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.main-section-tutorial-info h1 {
+    font-size: 22px;
+}
+
+.main-section-toolbox {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-section-toolbox-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.main-section-toolbox-images li {
+    width: 150px;
+    height: 200px;
+    background-color: rgba(219, 220, 218, 0.747);
+}
+
+.main-section-toolbox-images li img {
+    width: 100%;
+    height: 80%;
+}
+
+.main-section-toolbox-heading{
+    background-color: rgba(219, 220, 218, 0.747);
+    display: inline;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(82, 68, 45);
+}
+
+.red-btn {
+    background-color: rgb( 232, 58, 14);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 50px;
+    margin: 50px;
+}
+
+/** Styling the Footer**/
+
+footer {
+    background-color: rgba(230, 227, 222, 0.699);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+footer ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+footer ul li {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+footer ul li:last-child {
+    border: none;
+}
+

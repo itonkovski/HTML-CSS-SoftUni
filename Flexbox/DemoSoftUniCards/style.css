@@ -1,0 +1,39 @@
+.cards-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.cards-row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card {
+    flex: 1 1 30%;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.card header {
+    text-align: center;
+    background: lightblue;
+    padding: 20px
+}
+
+.card footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.body {
+    padding: 15px;
+}
